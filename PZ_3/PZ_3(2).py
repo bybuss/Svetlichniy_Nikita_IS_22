@@ -1,23 +1,22 @@
-#Дописать условие задачи
-
+# Определить, какая из двух последних точек (B или C) расположена ближе к A и вывести эту точку и расстояние до точки А
 
 A, B, C = input("Введите значение для точки А: "), input("Введите значение для точки В: "), input("Введите значение для точки С: ")
 
-while type(A) == str:
+while type(A) != float:
  try:
     A = float(A)
  except ValueError:
     print("\nНеправильно ввели тип данных для А!")
     A = input("Введите значение для точки А: ")
 
-while type(B) == str:
+while type(B) != float:
  try:
     B = float(B)
  except ValueError:
     print("\nНеправильно ввели тип данных для В!")
     B = input("Введите значение для точки В: ")
 
-while type(C) == str:
+while type(C) != float:
  try:
     C = float(C)
  except ValueError:
@@ -37,4 +36,4 @@ if distance_C < distance_B:
 elif distance_B < distance_C:
     print(f"\nТочка B ближе к точке А, чем точка C.\nТочка B: {B} -> pасстояние до точки А: {distance_B}")
 else:
-    print(f"\nУ точек В и С одинаковое расстояние до точки А.\nТочка B: {B} -> pасстояние до точки А: {distance_B}\nТочкB С: {C} -> pасстояние до точки А: {distance_C}")
+    print(f"\nУ точек В и С одинаковое расстояние до точки А.\nТочка B: {B} -> pасстояние до точки А: {distance_B}\nТочка С: {C} -> pасстояние до точки А: {distance_C}")
