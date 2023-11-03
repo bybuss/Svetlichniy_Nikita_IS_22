@@ -22,13 +22,13 @@ while type(C) != int:
     print("\nНеправильно ввели тип данных для С!")
     C = input("Введите значение для точки С: ")
 
-test, count = 0, 0
+sqr, count = 0, 0
 
-while test < A * B:
-    test += C ** 2
+while sqr < A * B:
+    sqr += C ** 2
     count += 1
 
-if test > A * B:
+if sqr > A * B:
     count -= 1
 
 print(f"Количество квадратов, размещенных на прямоугольнике: {count}")
