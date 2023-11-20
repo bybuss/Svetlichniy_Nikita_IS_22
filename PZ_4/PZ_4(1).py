@@ -19,4 +19,4 @@ multiplication = 1
 for i in range(n + 1):
     multiplication *= Decimal("1") + Decimal(i) / Decimal("10")
 
-print(f"Произведение N сомножителей = {multiplication}")
+print(f"Произведение {n} сомножителей = {multiplication}")
