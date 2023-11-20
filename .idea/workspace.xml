@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79ffae43-6fb4-4189-b34f-c2608077449c" name="Changes" comment="2 try">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_4/PZ_4(1).py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_4/PZ_4(1).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/PZ_5.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/reports/PZ_5.pdf" afterDir="false" />
-    </list>
+    <list default="true" id="79ffae43-6fb4-4189-b34f-c2608077449c" name="Changes" comment="2 try" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +56,7 @@
       <recent name="D:\Programming\PyCharm Prohects\Svetlichniy_Nikita_IS-22\reports" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PZ_4(2)">
+  <component name="RunManager">
     <configuration name="PZ_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Svetlichniy_Nikita_IS-22" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,7 +186,7 @@
       <workItem from="1699359083713" duration="12000" />
       <workItem from="1699359402221" duration="18000" />
       <workItem from="1699361884652" duration="250000" />
-      <workItem from="1700488207461" duration="3199000" />
+      <workItem from="1700488207461" duration="5506000" />
     </task>
     <task id="LOCAL-00001" summary="2 try">
       <option name="closed" value="true" />
@@ -227,12 +223,13 @@
     <SUITE FILE_PATH="coverage/Svetlichniy_Nikita_IS_22$PZ_4_1_.coverage" NAME="PZ_4(1) Coverage Results" MODIFIED="1700492354390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PZ_4" />
     <SUITE FILE_PATH="coverage/Svetlichniy_Nikita_IS_22$PZ_6_3_.coverage" NAME="PZ_6(3) Coverage Results" MODIFIED="1700488354318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PZ_6" />
     <SUITE FILE_PATH="coverage/Svetlichniy_Nikita_IS_22$PZ_7_2_.coverage" NAME="PZ_7(2) Coverage Results" MODIFIED="1699348996485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PZ_7" />
-    <SUITE FILE_PATH="coverage/Svetlichniy_Nikita_IS_22$PZ_5_2_.coverage" NAME="PZ_5(2) Coverage Results" MODIFIED="1700490004954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PZ_5" />
+    <SUITE FILE_PATH="coverage/Svetlichniy_Nikita_IS_22$sdfsdfsdffsd.coverage" NAME="sdfsdfsdffsd Coverage Results" MODIFIED="1700493750976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Svetlichniy_Nikita_IS_22$PZ_5_2_.coverage" NAME="PZ_5(2) Coverage Results" MODIFIED="1700494225880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PZ_5" />
     <SUITE FILE_PATH="coverage/Svetlichniy_Nikita_IS_22$tests.coverage" NAME="tests Coverage Results" MODIFIED="1699299642248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Svetlichniy_Nikita_IS_22$PZ_6_2_.coverage" NAME="PZ_6(2) Coverage Results" MODIFIED="1699297791852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PZ_6" />
     <SUITE FILE_PATH="coverage/Svetlichniy_Nikita_IS_22$PZ_4_2_.coverage" NAME="PZ_4(2) Coverage Results" MODIFIED="1700492403303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PZ_4" />
     <SUITE FILE_PATH="coverage/Svetlichniy_Nikita_IS_22$PZ_7_1_.coverage" NAME="PZ_7(1) Coverage Results" MODIFIED="1699349149180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PZ_7" />
-    <SUITE FILE_PATH="coverage/Svetlichniy_Nikita_IS_22$PZ_5_1_.coverage" NAME="PZ_5(1) Coverage Results" MODIFIED="1700489581857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PZ_5" />
+    <SUITE FILE_PATH="coverage/Svetlichniy_Nikita_IS_22$PZ_5_1_.coverage" NAME="PZ_5(1) Coverage Results" MODIFIED="1700494222376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PZ_5" />
     <SUITE FILE_PATH="coverage/Svetlichniy_Nikita_IS_22$main.coverage" NAME="main Coverage Results" MODIFIED="1699361892829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Svetlichniy_Nikita_IS_22$PZ_9.coverage" NAME="PZ_9 Coverage Results" MODIFIED="1699361933005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PZ_9" />
     <SUITE FILE_PATH="coverage/Svetlichniy_Nikita_IS_22$PZ_6_1_.coverage" NAME="PZ_6(1) Coverage Results" MODIFIED="1699297844177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PZ_6" />
