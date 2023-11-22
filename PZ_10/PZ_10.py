@@ -28,7 +28,8 @@ sorted_store = {store_name[0]: {
     } for store_name in store.items()
 }
 
-print(sorted_store) # тут ужасно неудобный вывод для просмотра
+# тут ужасно неудобный вывод для просмотра
+print(sorted_store)
 
 # добавляю в json`чик, чтобы удобнее было просматривать
 with open("sorted_store.json", "w", encoding='utf-8') as file:
