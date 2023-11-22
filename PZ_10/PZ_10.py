@@ -32,5 +32,5 @@ sorted_store = {store_name[0]: {
 print(sorted_store)
 
 # добавляю в json`чик, чтобы удобнее было просматривать
-with open("sorted_store.json", "w", encoding='utf-8') as file:
+with open("sorted_store.json", "w", encoding="utf-8") as file:
     json.dump(sorted_store, file, ensure_ascii=False, indent=4)
