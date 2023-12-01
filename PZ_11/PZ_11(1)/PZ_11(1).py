@@ -39,7 +39,6 @@ negative_data = get_data_from_file("negative")
 identical_items, identical_items_without_sign = [], []
 for i in positive_data:
     for j in negative_data:
-        print(f"{i}: {j}")
         # Если учитывать минус
         if j == i:
             identical_items.append(j)
@@ -64,5 +63,4 @@ with open("report.txt", "w", encoding="utf-8") as file:
             f"Количество нечетных элементов второго файла: {
                 len([i for i in positive_data if i % 2 != 0])
             }\n"
-        ]
-    )
+        ])

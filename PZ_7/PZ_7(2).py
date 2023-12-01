@@ -3,7 +3,6 @@
 
 S = str(input("Введите значение для строки S: "))
 
-
 if len(S.split(" ")) >= 3:
     print("".join(S.split(" ")[1:2]))
 else:
