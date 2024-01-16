@@ -22,7 +22,6 @@ while 1 >= K or K > N:
     print("(1 < K < N)")
     K = int(input("Введите значения для K: "))
 
-
 A = list(range(N))
 
 print(f"До:    {A}")

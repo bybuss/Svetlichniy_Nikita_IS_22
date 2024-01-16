@@ -11,6 +11,7 @@ while type(N) != int:
         N = input("Введите значение для N: ")
 
 A = list(range(N))
-B = [*A[2::2], *A[1::2]]
+B = [*A[0::2], *A[1::2]]
 
-print(B)
+print(f"До:    {A}")
+print(f"После: {B}")
