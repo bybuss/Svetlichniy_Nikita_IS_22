@@ -7,24 +7,27 @@ import json
 
 
 def str_with_mounths_to_dict(_stroke: str, _mounths: list) -> dict:
+    """Преобразование строки в словарь"""
     local_calendar = {}
     for i in range(len(_stroke.split(" "))):
         local_calendar[_mounths[i]] = _stroke.split(" ")[i]
-
     return local_calendar
 
 
 def int_list_of_temperatures(calendar: dict) -> list:
+    """Кладем все температуры в список для дальнейшего использования"""
     temperatures = list(calendar.values())[1:]
     return list(map(int, temperatures))
 
 
 def average_temperature() -> int:
+    """Находим среднюю температуру"""
     temperatures = int_list_of_temperatures(dict_calendar)
     return round(sum(temperatures) / len(temperatures))
 
 
-def min_temperature()-> int:
+def min_temperature() -> int:
+    """Находим минимальную температуру"""
     temperatures = int_list_of_temperatures(dict_calendar)
     return min(temperatures)
 
@@ -42,6 +45,6 @@ dict_calendar["min_temperature"] = min_temperature()
 # тут ужасно неудобный вывод для просмотра
 print(dict_calendar)
 
-# добавляю в json`чик, чтобы удобнее было просматривать
+# поэтому добавляю в json`чик, чтобы удобнее было просматривать
 with open("calendar.json", "w", encoding="utf-8") as file:
     json.dump(dict_calendar, file, ensure_ascii=False, indent=4)
