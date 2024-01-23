@@ -13,7 +13,7 @@ import random
 
 def subsequence(sign: int = random.choice([1, -1])) -> list:
     """Создаю рандомную последовательность"""
-    return [random.randint(1, 1000) * sign for i in range(random.randint(175, 200))]
+    return [random.randint(1, 6) * sign for i in range(random.randint(1, 10))]
 
 
 def ints_file(_subsequence: list, name: str) -> None:
