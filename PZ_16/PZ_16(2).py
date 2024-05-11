@@ -11,7 +11,7 @@ class Animal:
         self.amount_of_paws = amount_of_paws
         self.cool_of_wool = cool_of_wool
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f"Вид: {self.vid},\nЛап: {self.amount_of_paws}шт,\nШерсть: {self.cool_of_wool}"
 
 
@@ -21,7 +21,7 @@ class Dog(Animal):
         self.nickname = nickname
         self.breed = breed
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f"\n{super().__str__()},\nКличка: {self.nickname},\nПорода: {self.breed}"
 
 

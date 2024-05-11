@@ -9,14 +9,14 @@ import calendar
 
 
 class Calendar:
-    def __init__(self, day: int, month: int, year: int) -> None:
+    def __init__(self, day: int, month: int, year: int):
         self.year = year
         self.month = month
         self.day = day
         try:
             self.date = datetime.datetime(self.year, self.month, self.day)
         except ValueError:
-            print("day is out of range for month\n")
+            print("Нет такого дня в этом месяце\n")
 
     def day_of_week(self) -> str:
         days_of_week = {
@@ -31,7 +31,7 @@ class Calendar:
         try:
             return days_of_week[self.date.isoweekday()]
         except AttributeError:
-            return "Неверный формат даты"
+            return "Нет такого дня в этом месяце"
 
     def is_leap_year(self) -> str:
         return "Високосный" if self.year % 4 == 0 else "Не високосный"
@@ -40,7 +40,7 @@ class Calendar:
         return calendar.monthrange(self.year, self.month)[1]
 
 
-date = Calendar(27, 2, 2024)
+date = Calendar(29, 2, 2024)
 print(
     f"День недели: {date.day_of_week()}\n"
     f"Год: {date.is_leap_year()}\n"
