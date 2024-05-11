@@ -6,6 +6,7 @@
 
 import datetime
 import calendar
+import pickle
 
 
 class Calendar:
@@ -40,9 +41,27 @@ class Calendar:
         return calendar.monthrange(self.year, self.month)[1]
 
 
-date = Calendar(29, 2, 2024)
-print(
-    f"День недели: {date.day_of_week()}\n"
-    f"Год: {date.is_leap_year()}\n"
-    f"Количество дней в месяце: {date.days_in_month()}"
-)
+def save_def(calendars: list[Calendar]) -> None:
+    with open("calendar.pickle", "wb") as file:
+        pickle.dump(calendars, file)
+
+
+def load_def() -> list[Calendar]:
+    with open("calendar.pickle", "rb") as file:
+        return pickle.load(file)
+
+
+date1 = Calendar(29, 2, 2024)
+date2 = Calendar(11, 5, 2011)
+date3 = Calendar(24, 12, 2023)
+save_def([date1, date2, date3])
+
+list_data = load_def()
+for date in list_data:
+    print(
+        f"{'='*60}\n"
+        f"День недели: {date.day_of_week()}\n"
+        f"Год: {date.is_leap_year()}\n"
+        f"Количество дней в месяце: {date.days_in_month()}\n"
+        f"{'=' * 60}\n"
+    )
