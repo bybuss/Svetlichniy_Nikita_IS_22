@@ -2,16 +2,16 @@
 # последовательно поменять содержимое следующих пар: A и B, C и D, B и C и вывести новые значения A, B, C, D.
 
 
-def Swap(x, y):
-    print(x, y)
+def Swap(x, y) -> (str, str):
     c = x
     x = y
     y = c
-    print(x, y)
-    print()
+
+    return str(x), str(y)
 
 
-A, B, C, D = input("Введите число А: "), input("Введите число B: "), input("Введите число C: "), input("Введите число D: ")
+# A, B, C, D = input("Введите число А: "), input("Введите число B: "), input("Введите число C: "), input("Введите число D: ")
+A, B, C, D = 1, 2, 3, 4
 
 while type(A) != int:
     try:
